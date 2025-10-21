@@ -16,9 +16,9 @@ let package = Package(
             targets: ["dddddddd"]),
     ],
     dependencies: [
-//        .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git", .upToNextMajor(from: "4.6.0")),
+        .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git", .upToNextMajor(from: "4.5.2")),
         
-//        .package(url: "https://github.com/AgoraIO/AgoraRtm_Apple.git", branch: "2.2.5_lite"),
+        .package(url: "https://github.com/AgoraIO/AgoraRtm_Apple.git", branch: "2.2.5_lite"),
 //        .package(url: "https://github.com/AgoraIO/AgoraRtm_Apple.git", .upToNextMajor(from: "2.2.4")),
         
     ],
