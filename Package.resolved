@@ -1,58 +1,31 @@
 {
-  "originHash" : "75c230995eaf3f943e987e06ec42f0066d052e34ee0ea26664f28438a6169ba0",
+  "originHash" : "a1ce9bfbdb177e553c7615bbdd75a14edb060a8e7b32ebd0a2f5067c36be0c53",
   "pins" : [
+    {
+      "identity" : "agorainfra_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AgoraIO/AgoraInfra_iOS.git",
+      "state" : {
+        "revision" : "0071cecee99160f056c943ee6bfca06685ffa3d7",
+        "version" : "1.3.0"
+      }
+    },
     {
       "identity" : "agorartcengine_ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git",
       "state" : {
-        "revision" : "75d5b9ce6e3676c1e6efaf91fbdfaafb8d20daa6",
-        "version" : "4.3.0"
+        "revision" : "c1224ad3e316db15a4ac48a6ff08208f7bcf5238",
+        "version" : "4.6.0"
       }
     },
     {
-      "identity" : "alamofire",
+      "identity" : "agorartm_apple",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "location" : "https://github.com/AgoraIO/AgoraRtm_Apple.git",
       "state" : {
-        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
-        "version" : "5.10.2"
-      }
-    },
-    {
-      "identity" : "cryptoswift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
-      "state" : {
-        "revision" : "e45a26384239e028ec87fbcc788f513b67e10d8f",
-        "version" : "1.9.0"
-      }
-    },
-    {
-      "identity" : "rongcloudim-ios",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/rongcloud/RongCloudIM-iOS",
-      "state" : {
-        "revision" : "199f6b318c5c5c8a372a55f351cab0da9beb6c75",
-        "version" : "5.24.2"
-      }
-    },
-    {
-      "identity" : "sdwebimage",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SDWebImage/SDWebImage.git",
-      "state" : {
-        "revision" : "2053b120767c42a70bcba21095f34e4cfb54a75d",
-        "version" : "5.21.3"
-      }
-    },
-    {
-      "identity" : "snapkit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SnapKit/SnapKit.git",
-      "state" : {
-        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
-        "version" : "5.7.1"
+        "branch" : "2.2.5_lite",
+        "revision" : "442aa74e8fa356a6efeadec93878c6e4e083dd2a"
       }
     }
   ],

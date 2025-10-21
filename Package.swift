@@ -4,39 +4,34 @@
 import PackageDescription
 
 let package = Package(
-    name: "Taleo_General",
+    name: "dddddddd",
+    
     platforms: [
         .iOS(.v15),
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "Taleo_General",
-            targets: ["Taleo_General"]),
+            name: "dddddddd",
+            targets: ["dddddddd"]),
     ],
     dependencies: [
-        // 在这里重新添加你之前的第三方依赖
-        .package(path: "/Users/admin/Desktop/Tale/Taleoops/Package_net/myNetTool"),
-        .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git", .exact("4.3.0")),
-        .package(url: "https://github.com/rongcloud/RongCloudIM-iOS", .exact("5.24.2")),
-        .package(url: "https://github.com/SnapKit/SnapKit.git", .exact("5.7.1")),
+        .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git", .upToNextMajor(from: "4.6.0")),
+        
+        .package(url: "https://github.com/AgoraIO/AgoraRtm_Apple.git", branch: "2.2.5_lite"),
+//        .package(url: "https://github.com/AgoraIO/AgoraRtm_Apple.git", .upToNextMajor(from: "2.2.4")),
         
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "Taleo_General",
+            name: "dddddddd",
             dependencies: [
-                .product(name: "Package_net", package: "myNetTool"),
-                .product(name: "RtcBasic", package: "AgoraRtcEngine_iOS"),
-                .product(name: "IMLibCore", package: "RongCloudIM-iOS"),
-                .product(name: "SnapKit", package: "SnapKit"),
-            ],
-            resources: [
-                .process("PPP_generalXibs_PPP"),
+//                .product(name: "Alamofire", package: "Alamofire"),
+//                .product(name: "SDWebImage", package: "SDWebImage"),
+//                .product(name: "CryptoSwift", package: "CryptoSwift"),
             ]
         )
-    ],
-    swiftLanguageModes: [.v5]
+    ]
 )
